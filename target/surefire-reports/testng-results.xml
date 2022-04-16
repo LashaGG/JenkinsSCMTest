@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-15T13:59:54 GET" name="TestSuite" finished-at="2022-04-15T13:59:54 GET" duration-ms="181">
+  <suite started-at="2022-04-16T10:44:53 GET" name="TestSuite" finished-at="2022-04-16T10:45:01 GET" duration-ms="7296">
     <groups>
     </groups>
-    <test started-at="2022-04-15T13:59:54 GET" name="ChromeTest" finished-at="2022-04-15T13:59:54 GET" duration-ms="181">
+    <test started-at="2022-04-16T10:44:53 GET" name="ChromeTest" finished-at="2022-04-16T10:45:01 GET" duration-ms="7296">
       <class name="DataProviderTest">
-        <test-method signature="myTest(int,int,int)[pri:0, instance:DataProviderTest@71c3b41]" started-at="2022-04-15T13:59:54 GET" name="myTest" data-provider="dpMethod" finished-at="2022-04-15T13:59:54 GET" duration-ms="10" status="PASS">
+        <test-method signature="myTest(int,int,int)[pri:0, instance:DataProviderTest@76954a33]" started-at="2022-04-16T10:44:56 GET" name="myTest" data-provider="dpMethod" finished-at="2022-04-16T10:44:57 GET" duration-ms="825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTest -->
-        <test-method signature="myTest(int,int,int)[pri:0, instance:DataProviderTest@71c3b41]" started-at="2022-04-15T13:59:54 GET" name="myTest" data-provider="dpMethod" finished-at="2022-04-15T13:59:54 GET" duration-ms="2" status="FAIL">
+        <test-method signature="myTest(int,int,int)[pri:0, instance:DataProviderTest@76954a33]" started-at="2022-04-16T10:45:00 GET" name="myTest" data-provider="dpMethod" finished-at="2022-04-16T10:45:00 GET" duration-ms="38" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -42,16 +42,16 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[9]]>
+                <![CDATA[2]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [12] but found [9]]]>
+              <![CDATA[expected [12] but found [2]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [12] but found [9]
+              <![CDATA[java.lang.AssertionError: expected [12] but found [2]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
