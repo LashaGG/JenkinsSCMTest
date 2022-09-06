@@ -13,7 +13,7 @@ public class DataProviderTest {
         @Test(dataProvider = "dpMethod")
         public void myTest (int a, int b, int result) {
             int sum = a + b;
-            Assert.assertEquals(result, sum);
+            Assert.assertEquals(result, sum) ;
 
     }
 }
