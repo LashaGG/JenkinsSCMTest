@@ -7,5 +7,14 @@ pipeline {
       }
     }
 
+    stage('Sleep') {
+      steps {
+        sleep 5
+      }
+    }
+
+  }
+  triggers {
+    cron('* * * * *')
   }
 }
