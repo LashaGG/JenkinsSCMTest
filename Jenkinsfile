@@ -14,10 +14,4 @@ pipeline {
     }
 
   }
-  post {
-    always {
-      sh 'End'
-    }
-
-  }
 }
