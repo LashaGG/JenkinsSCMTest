@@ -11,7 +11,7 @@ pipeline {
 
         stage('Sleep') {
           steps {
-            sleep(time: 5000, unit: 'MILLISECONDS')
+            sleep(time: 500, unit: 'MILLISECONDS')
           }
         }
 
